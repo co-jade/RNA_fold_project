@@ -1,6 +1,7 @@
 # RNA_fold_project
 estimating most probable RNA conformation
 
-Usage: python main.py file.pdb
+## Usage: 
+python main.py file.pdb
 
-Authors: Jade COCHET, Naëla GOURRI
+_Authors_: Jade COCHET, Naëla GOURRI
