@@ -1,6 +1,6 @@
-For R:
+R:
 dplyr 4.1.3
 ggplot 4.1.3
 
-For Python:
-best use with python 3.5 minimum
+Python:
+3.10.7 used for test {version 3.5 minimum}
