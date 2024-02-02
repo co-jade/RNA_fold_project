@@ -1,6 +1,6 @@
 For R:
-dplyr [version]
-ggplot [version]
+dplyr 4.1.3
+ggplot 4.1.3
 
 For Python:
 best use with python 3.5 minimum
