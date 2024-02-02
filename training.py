@@ -40,7 +40,8 @@ def generate_pair_list(base1, base2):
                    yi, yj = float(i[4]), float(j[4])
                    zi, zj = float(i[5]), float(j[5])
                    pair_list.append(round(((xi-xj)**2 + (yi-yj)**2 + (zi-zj)**2)**0.5, 3)) 
-    return pair_list
+    if pair_list != [] : return pair_list
+    else: return[0]
 
 def compute_obs_frequencies(pair_lists):
     frequencies = {}
