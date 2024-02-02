@@ -49,6 +49,12 @@ The corresponding plots to each of those can be found in the `example_plot` dire
 The estimated Gibbs free energy of the evaluated RNA conformation can be found in the `example_result` directory with the file _`gibbs_free_energy.txt`_. This file contains the estimation for every conformation (for example _**line 1 =** "AA: 140.504"_) but it also returns the minimum value among those and predict the native fold, here: _**line 11 =** "The most probable native fold structure conformation is CG"_.
 
 
+### RNA PUZZLES
+The 29 RNA PDB files from the RNA PUZZLES data (Cruz et al. (2012)) can also be found in its namesake directory. 
+
+###### Cruz, José, Marc-Frédérick Blanchet, Michal Boniecki, Janusz Bujnicki, Shi-Jie Chen, Song Cao, Rhiju Das, et al. 2012. “RNA-Puzzles: A CASP-like evaluation of RNA three-dimensional structure prediction.” RNA (New York, N.Y.) 18 (February): 610–25. https://doi.org/10.1261/rna.031054.111.
+
+
 
 
 
