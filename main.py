@@ -46,7 +46,7 @@ for base_pair, distance in scores.items():
         for score in distance.values():
             file.write(f"{score}\n")
 
-# appelle de la fonction r pour les plots
+# call the r code for plots
 score_files = os.listdir("scores")
 
 for file in score_files:
