@@ -16,7 +16,7 @@ To execute the project and apply it to a PDB file of your choosing, follow this:
    python main.py file.pdb
  ```
 - If you want to execute on all the files of a directory, you can try this:
-  ```bash
+ ```bash
   i=0
   for file in RNA_PUZZLES/*; do
       python main.py $file
@@ -26,7 +26,7 @@ To execute the project and apply it to a PDB file of your choosing, follow this:
       mv plots results_$i
       ((i++))
   done
-  ```
+ ```
 
 
 The outputs will be saved in the output_directory.
