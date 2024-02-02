@@ -14,7 +14,7 @@ To execute the project and apply it to a PDB file of your choosing, follow this:
 - Execute the following command, replacing `file.pdb` with the path to your PDB file:
  ```bash
    python main.py file.pdb
-  ```
+ ```
 
 The outputs will be saved in the output_directory.
 
@@ -30,7 +30,8 @@ The file `training.py` contains all the functions to:
    - compute the scores(pseudo-energy) of the two frequencies;
    - compute the estimated Gibbs free energy of the evaluated RNA conformation.
   
-The file `main.py` 
+The file `main.py` executes all previous functions and outputs 10 files for the frequencies of the 20 distances and Gibbs free energy. It also calls the R file for the plotting.
+
 
 **We also have a R script**
 
