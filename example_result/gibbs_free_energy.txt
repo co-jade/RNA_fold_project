@@ -1,0 +1,11 @@
+AA: 140.504
+AU: 130.896
+AC: 68.963
+AG: 95.382
+UU: 128.66
+UC: 125.294
+UG: 111.212
+CC: 45.619
+CG: 4.496
+GG: 85.161
+The most probable native fold structure conformation is CG
