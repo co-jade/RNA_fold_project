@@ -15,7 +15,7 @@ To execute the project and apply it to a PDB file of your choosing, follow this:
  ```bash
    python main.py file.pdb
  ```
-- If you want to execute on all the files of a directory, you can try this:
+- If you want to execute the project on all the files of a directory (like the RNA_PUZZLES data), you can try this:
  ```bash
   i=0
   for file in RNA_PUZZLES/*; do
