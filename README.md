@@ -20,6 +20,7 @@ The outputs will be saved in the output_directory.
 
 
 ## Project Description:
+### Scripts
 **We have two Python scripts**
 
 The file `training.py` contains all the functions to:
@@ -35,4 +36,19 @@ The file `main.py` executes all previous functions and outputs 10 files for the 
 
 **We also have a R script**
 
-The file `plot.r` 
+The file `plot.r` plots the interaction profiles, the score as a
+function of the distance.
+
+### Example
+We computed the project for an example file `example_pdb/17ra.pdb`. 
+
+The scores calculated can be found in the `example_scores` directory with the file as follows: _`pair.txt`_ (i.e. _`AA.txt`_, ..., _`CG.txt`_, ..., _`UU.txt`_).
+
+The corresponding plots to each of those can be found in the `example_plot` directory with the file as follows: _`interaction_profile_pair.png`_.
+
+The estimated Gibbs free energy of the evaluated RNA conformation can be found in the `example_result` directory with the file _`gibbs_free_energy.txt`_. This file contains the estimation for every conformation (for example _**line 1 =** "AA: 140.504"_) but it also returns the minimum value among those and predict the native fold, here: _**line 11 =** "The most probable native fold structure conformation is CG"_.
+
+
+
+
+
