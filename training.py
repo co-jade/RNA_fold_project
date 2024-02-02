@@ -19,10 +19,7 @@ def retrieve_bases(file):
             if l[3] == "C" :
                 list_C.append([l[3],l[4],l[5],l[6],l[7],l[8]])
             if l[3] == "G" :
-                list_G.append([l[3],l[4],l[5],l[6],l[7],l[8]])
-            #print(liste_bases[-1])
-            #c +=1
-            # !!! no retrun ? !!! Soit faire en sorte que la fonction fasse une seule base à la fois soit réussir à retourner les 4 listes 
+                list_G.append([l[3],l[4],l[5],l[6],l[7],l[8]]) 
 
 def generate_pair_list(base1, base2):
     pair_list = []
@@ -59,7 +56,7 @@ def compute_obs_frequencies(pair_lists):
 
 def compute_ref_frequency(pair_lists):
     ref_freq = {}
-    for i in range (0,20): #initialisation of distionnary
+    for i in range (0,20): #initialisation of dictionnary
         ref_freq[i] = 0
     total = 0
     for base_pair in pair_lists.items():
