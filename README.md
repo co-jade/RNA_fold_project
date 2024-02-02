@@ -27,7 +27,7 @@ The file `training.py` contains all the functions to:
    - retrieve the bases (_C3_ & _'ATOM'_, as only _C3_ atoms are taken into account);
    - compute interatomic distances from the given dataset of PDB files;
    - compute the observed frequencies: 10 × 20 distance intervals (0 to 20 Å);
-   - compute the reference frequency (= the “AA” pair);
+   - compute the reference frequency (= the “XX" pair);
    - compute the scores(pseudo-energy) of the two frequencies;
    - compute the estimated Gibbs free energy of the evaluated RNA conformation.
   
